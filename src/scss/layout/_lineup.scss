@@ -64,15 +64,15 @@
 }
 
 .bg-verde{
-    background-color: v.$amarillo;
-    li:nth-child(odd){
-        background-color: darken($color: v.$amarillo, $amount: 10%);
-    }
-}
-.bg-amarillo{
     background-color: v.$verde;
     li:nth-child(odd){
         background-color: darken($color: v.$verde, $amount: 10%);
+    }
+}
+.bg-amarillo{
+    background-color: v.$amarillo;
+    li:nth-child(odd){
+        background-color: darken($color: v.$amarillo, $amount: 10%);
     }
 }
 

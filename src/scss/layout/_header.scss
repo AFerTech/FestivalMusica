@@ -2,6 +2,16 @@
 @use 'base/mixins' as m;
 .header {
   background-color: v.$verde;
+  @include m.tablet{
+    &.fijo{
+      left: 0;
+      top: 0;
+      position: fixed;
+      width: 100%;
+      box-shadow: .1rem .1rem .1rem rgba(51, 51, 51, 0.486);
+    }
+  }
+  
 
   h1 {
     color: v.$blanco;
